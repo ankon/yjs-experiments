@@ -1,0 +1,23 @@
+{
+  "name": "@collaborne/yjs-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:start-dynalite": "dynalite --path data",
+    "start": "TS_NODE_COMPILER_OPTIONS='{ \"module\": \"commonjs\" }' node -r ts-node/register -r source-map-support/register experiments.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.9.6",
+    "aws-sdk": "^2.993.0",
+    "dynalite": "^3.2.1",
+    "nanoid": "^3.1.25",
+    "source-map-support": "^0.5.20",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3",
+    "yjs": "^13.5.12"
+  }
+}

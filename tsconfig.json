@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "es6",
+		"lib": ["es2019", "es2020.bigint", "es2020.string", "es2020.symbol.wellknown"],
+		"target": "es2019",
+
+		"noEmit": true,
+
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"sourceMap": true,
+		"resolveJsonModule": true
+	},
+	"include": [
+		"*"
+	]
+}
